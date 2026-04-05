@@ -23,16 +23,13 @@ The `Jenkinsfile` automatically runs the following steps:
 ## 📸 Screenshots
 
 **1. Jenkins Pipeline Execution:**
-![Jenkins Pipeline Result](./public/images/jenkins-success.png)
+<img width="1836" height="897" alt="image" src="https://github.com/user-attachments/assets/ede19d5d-69c6-4431-a89e-02932f85397e" />
+<img width="1836" height="897" alt="image" src="https://github.com/user-attachments/assets/35d23020-3798-47e1-bd23-0b6fc31e853e" />
+
+
 
 **2. Application Active on Listening Port:**
-![Netstat Result](./public/images/port-listening.png)
-
-## 🚀 How to Run It Yourself
-1. Set up Jenkins on your server.
-2. Create a new Jenkins Pipeline job and connect it to this GitHub repository.
-3. Click "Build Now" and wait for it to complete.
-4. Enjoy your deployed app at `http://<your-server-ip>:3000` (or check your server's open ports).
+<img width="1046" height="594" alt="Screenshot from 2026-04-05 22-08-25" src="https://github.com/user-attachments/assets/eb2fcae7-6420-4a33-8d4d-db94ae9059bd" />
 
 ---
 *Note: The original frontend UI template is from [Creative Tim](https://www.creative-tim.com/). This repository is mainly built to practice Jenkins and CI/CD.*

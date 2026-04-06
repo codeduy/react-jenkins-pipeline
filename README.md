@@ -17,7 +17,7 @@ The `Jenkinsfile` automatically runs the following steps:
 2. **Build the App:** Runs `npm install` to get the dependencies and `npm run build` to create the production build.
 3. **Deploy:** 
    - Finds and stops any old process running on port 3000 (`fuser -k 3000/tcp`).
-   - Starts the app in the background using `nohup serve -s build -l 3000 &`.
+   - Starts the app in the background using `nohup npx serve -s build -l 3000 > app.log 2>&1 &`.
    - Uses `JENKINS_NODE_COOKIE=dontKillMe` to prevent Jenkins from terminating the background app when the pipeline finishes.
 
 ## 📸 Screenshots

@@ -24,6 +24,7 @@ The `Jenkinsfile` automatically runs the following steps:
 
 **1. Jenkins Pipeline Execution:**
 <img width="1836" height="897" alt="image" src="https://github.com/user-attachments/assets/ede19d5d-69c6-4431-a89e-02932f85397e" />
+<img width="1833" height="901" alt="image" src="https://github.com/user-attachments/assets/7f20eecd-55e1-47a5-8aaa-77e29359f171" />
 <img width="1836" height="897" alt="image" src="https://github.com/user-attachments/assets/35d23020-3798-47e1-bd23-0b6fc31e853e" />
 
 
